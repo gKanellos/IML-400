@@ -1,0 +1,197 @@
+* {margin: 0; padding: 0; outline: 0;}
+
+
+body {
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	color: #DEDEDE;
+	font-size: 12px;
+	
+	
+	
+}
+
+
+/*h1, h2 {
+	
+	font-weight: 300;
+	margin:0 0 15px 0;
+}*/
+
+
+h1 {
+	font-size: 70px;
+	color:#CA8461;
+	letter-spacing: -1px;
+	font-family: 'Oxygen', sans-serif;
+	line-height: 130%;
+}
+#kanellos {
+	color: #0C0A45;
+	
+}
+
+h2 {
+	font-size: 30px;
+	font-family: 'Oxygen', sans-serif;
+	color: #CA8461;
+}
+
+
+p {
+	margin: 0 0 15px 0;
+}
+
+a {
+	color: #DEDEDE; 
+
+}
+
+
+
+li {
+	list-style-type: none;
+}
+/*
+a:link{
+		text-decoration: none; }*/
+a:hover {
+	color: #D43131;
+}
+
+.clear {
+	clear: both;
+}
+.wrap {
+	width: 100%;
+	max-width: 1600px;
+	min-width: 960px;
+	z-index: 10;
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+
+}
+
+
+
+.section {
+	width: 100%;
+	max-width: 1600px;
+	min-width: 960px;
+	z-index: 10;
+	position: relative;
+	margin: 0 auto;
+	padding: 0 0 20px 0;
+	height: 500px;
+}
+
+
+.inner {
+
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+	min-height: 50px;
+	/*padding:30px 0;*/
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+/*.inner:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+}*/
+
+
+/*.subMenu {
+	/*height: 50px;
+	z-index: 1000;
+	width: 100%;
+	background: #0977bc;
+text-align: center;
+	
+	margin-top: -50px;
+	color: ##0C0A45;
+}
+
+.subMenu .inner {
+	padding:0;
+	font-weight: 400;
+	margin: 0 auto;
+
+}
+
+#subMenu{
+	text-align: center; 
+	margin-top: -400px; 
+}*/
+.subNavBtn {
+	
+	
+	position: absolute;
+	left:calc(50% - 150px);;
+	text-align: center; 
+	margin-top: 60px;
+	/*border-top: 1px solid red; 
+	border-bottom: 1px solid red; */
+}
+
+
+/*.active {
+	background: #25aae1;
+}
+.end {
+	margin: 0;
+}*/
+
+
+
+
+/* SECTIONS */
+.sTop {
+	min-height: 550px;
+	background:#fff;
+	color:#3d3d3d;
+	padding: 50px 0;
+	height: 300px;
+	
+}
+
+.s1 {
+	background:#0C0A45;
+	color:#DEDEDE;
+	padding-top: 150px; 
+
+}
+
+
+/*.s2 {
+	background: #F1F1F1;
+}
+
+
+.s3 {
+	background: ##F1F1F1;
+}*/
+
+
+#leftContainer{
+	width: 25%;
+	float:left;
+	line-height: 180%; 
+}
+#middleContainer{
+	width: 33.4%;
+	float: left;
+	line-height: 180%; 
+}
+#rightContainer {
+	width: 33.4%;
+	float: right; 
+	line-height: 180%; 
+	
+}
+
+
