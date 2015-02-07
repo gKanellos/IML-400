@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gabrielle Kanellos.</title>
+
+<link href='http://fonts.googleapis.com/css?family=Oxygen:700' rel='stylesheet' type='text/css'>
+<link href="css/demoIndex.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+
+<script	src="js/jquery.smint.js" type="text/javascript" ></script>
+
+<script type="text/javascript">
+	
+
+$(document).ready( function() {
+    $('.subMenu').smint({
+    	'scrollSpeed' : 1000
+    });
+});
+
+
+</script>
+
+
+</head>
+<body>
+<div class="wrap ">
+	<div class="section sTop">
+		<div class="inner">
+			<div class="subMenu">
+				<a href="#s1" class="subNavBtn"><h1>Gabrielle <br><span id="kanellos">Kanellos</br></span></h1>
+			<h2 class="subtitle">IML 400</h2> </div> </a>
+		</div>
+	</div>
+
+	<!--<div class="subMenu" >
+	 	<div class="inner">
+	 		<a href="#s1" class="subNavBtn">Home</a> -->
+			<!--<a href="#s2" class="subNavBtn">Reading Responses </a>
+			<a href="#s3" class="subNavBtn">Assignments</a>-->
+			
+			
+		</div>
+	</div>
+
+	<div class="section s1">
+		<div class="inner ">
+			
+
+				<div id="leftContainer"><h2>GitHub</h2><a href="https://github.com/gKanellos" target="_blank"> Github </a> </div>
+				<div id="middleContainer"> <h2>Reading Responses</h2>
+				<ul>
+					<li> 
+					<a href="ReadingReport1.html" target="_blank"> Reading Report 1</a>
+					</li>
+					<li> <a href="ReadingReport2.html" target="_blank"> Reading Report 2</a> 
+					</li>
+					<li>
+						<a href="readingReport3.html" target="_blank"> Reading Report 3</a>
+					</li>
+				</ul>
+				</div>
+        		<div id="rightContainer"><h2>Assignments</h2>
+				<ul>
+					<li> 
+					<a href="iml400FirstDay/index.html"> First Day </a> 
+					</li>
+					<li>
+					<a href="assignmentOne/assignment1.html"> Assignment 1</a>
+ 					</li>
+ 					<li> <a href="Assignment2CodeAcademyJavascript.html" target="_blank">Assignment 2 Code Academy Screen Shot</a></li>
+ 					<li><a href="gitHubSS.html" target="_blank">Git Hub Screen Shot </a></li>
+				</ul>
+        		</div>
+
+		
+
+	<!--<div class="section s2">
+		<div class="inner">
+			<h1>Reading Responses</h1>
+			<p><a href="#s4" class="intLink">Internal Link: Jump to Section 4</a></p>
+			<p><a href="#sTop" class="intLink">Internal Link: Back to Top</a></p>
+		</div>
+	</div>
+
+
+
+	<div class="section s3">
+		<div class="inner">
+			<h1>Assignments</h1>
+		</div>
+	</div>-->
+
+	
+</div>
+
+</body>
+</html>
